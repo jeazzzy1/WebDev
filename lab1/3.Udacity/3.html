@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Units in CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .first {
+            width: 50%; /* 50% of the container width */
+            height: 100px;
+            background-color: lightblue;
+            margin: 10px auto;
+            text-align: center;
+            line-height: 100px;
+            font-size: 1.5rem;
+            border: 2px solid navy;
+        }
+
+        .second {
+            width: 200px; /* Fixed width */
+            height: 200px;
+            background-color: peachpuff;
+            margin: 20px auto;
+            text-align: center;
+            line-height: 200px;
+            font-size: 1rem;
+            border-radius: 50%; /* Makes it a circle */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .third {
+            width: 80%; /* 80% of the container width */
+            max-width: 800px; /* Maximum width */
+            margin: 20px auto;
+            padding: 15px;
+            background-color: lavender;
+            font-size: 1rem;
+            line-height: 1.6;
+            text-align: justify;
+            border-left: 5px solid purple;
+        }
+
+        .fourth {
+            width: calc(100% - 40px); /* Dynamic width with padding considered */
+            margin: 10px auto;
+            padding: 20px;
+            background-color: mintcream;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: darkslategray;
+            border: 2px dashed teal;
+        }
+    </style>
+</head>
+<body>
+    <div class="first">This is the first div</div>
+    <div class="second">Second</div>
+    <div class="third">Hammock ex plaid nulla. Nihil stumptown gastropub, dreamcatcher gochujang franzen cillum cliche keffiyeh pop-up pug small batch knausgaard. Fanny pack elit you probably haven't heard of them before they sold out. Sint elit tofu et veniam irony 3 wolf moon. VHS slow-carb trust fund chartreuse wolf. Qui sed dreamcatcher cronut, hoodie fixie normcore. Gochujang dolor consectetur post-ironic.</div>
+    <div class="fourth">Hammock ex plaid nulla. Nihil stumptown gastropub, dreamcatcher gochujang franzen cillum cliche keffiyeh pop-up pug small batch knausgaard. Fanny pack elit you probably haven't heard of them before they sold out. Sint elit tofu et veniam irony 3 wolf moon. VHS slow-carb trust fund chartreuse wolf. Qui sed dreamcatcher cronut, hoodie fixie normcore. Gochujang dolor consectetur post-ironic.</div>
+</body>
+</html>
