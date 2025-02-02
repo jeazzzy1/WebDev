@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Вход или регистрация</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f2f5;
+        }
+        .container {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+        }
+        .text-container {
+            width: 400px;
+            font-size: 20px;
+            color: #1c1e21;
+        }
+        .text-container h1 {
+            color: #1877f2;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .form-container {
+            width: 350px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-btn {
+            width: 100%;
+            padding: 10px;
+            background: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .login-btn:hover {
+            background: #166fe5;
+        }
+        .register-btn {
+            width: 100%;
+            padding: 10px;
+            background: #42b72a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .register-btn:hover {
+            background: #36a420;
+        }
+        .forgot-password {
+            display: block;
+            margin: 10px 0;
+            color: #1877f2;
+            text-decoration: none;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text-container">
+            <h1>facebook</h1>
+            <p>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</p>
+        </div>
+        <div class="form-container">
+            <form>
+                <input type="email" placeholder="Электронный адрес или номер телефона" required>
+                <input type="password" placeholder="Пароль" required>
+                <button type="submit" class="login-btn">Вход</button>
+                <a href="#" class="forgot-password">Забыли пароль?</a>
+                <button type="button" class="register-btn">Создать аккаунт</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
